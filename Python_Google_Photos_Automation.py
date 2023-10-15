@@ -54,11 +54,3 @@ for file in list_of_final_thousand_files:
     source='/Volumes/USB DISK/Google Photos/Family/' + str(file)
     destination = "/Volumes/USB DISK/Google Photos/thousand_photos/" + str(file)
     shutil.copyfile(source, destination)
-
-
-    
-        
-"""
-for x in range(0,1000):
-    list_of_random_increments.append(
-"""
